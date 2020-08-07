@@ -28,10 +28,10 @@ def monopoly_with_third_tier
   third_tier[:railroads][:rent_in_dollars][:two_pieces_ownded] = 50
   third_tier[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
   third_tier[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
-  third_tier{:railroads][:names][:reading_railroad] = {}
-  third_tier{:railroads][:names][:pennsylvania] = {}
-  third_tier{:railroads][:names][:b_and_o_railroad] = {}
-  third_tier{:railroads][:names][:shortline_railroad] = {}
+  third_tier[:railroads][:names][:reading_railroad] = {}
+  third_tier[:railroads][:names][:pennsylvania] = {}
+  third_tier[:railroads][:names][:b_and_o_railroad] = {}
+  third_tier[:railroads][:names][:shortline_railroad] = {}
   
   third_tier
 
