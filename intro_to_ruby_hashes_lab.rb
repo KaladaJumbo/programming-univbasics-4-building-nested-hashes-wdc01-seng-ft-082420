@@ -23,7 +23,7 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-  third_tier = second_tier
+  third_tier = monopoly_with_second_tier
   third_tier[:railroads][:rent_in_dollars][:one_piece_owned] = 25
   third_tier[:railroads][:rent_in_dollars][:two_pieces_ownded] = 50
   third_tier[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
